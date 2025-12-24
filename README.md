@@ -36,7 +36,7 @@ src/
 └── index.js         # Application entry point
 ```
 
-## 🚀 Features
+##  Features
 
 - ✅ **View Equipment** - Display all equipment in a sortable table
 - ✅ **Add Equipment** - Create new equipment with validation
@@ -49,14 +49,14 @@ src/
 - ✅ **Loading States** - Visual feedback during API calls
 - ✅ **Error Handling** - User-friendly error messages
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React 18** - UI library
 - **Tailwind CSS** - Utility-first CSS framework
 - **Lucide React** - Icon library
 - **Custom Hooks** - For state management and reusability
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -84,7 +84,7 @@ src/
    ```
    The app will open at [http://localhost:3000](http://localhost:3000)
 
-## 🏗️ Build for Production
+##  Build for Production
 
 ```bash
 npm run build
@@ -92,7 +92,7 @@ npm run build
 
 This creates an optimized production build in the `build` folder.
 
-## 🎨 Component Architecture
+##  Component Architecture
 
 ### Reusable Components
 
@@ -114,7 +114,7 @@ All common components are designed to be reusable throughout the application:
 - **validation.js** - Form validation logic
 - **formatters.js** - Date and string formatting utilities
 
-## 🔌 API Integration
+##  API Integration
 
 The app connects to a REST API with the following endpoints:
 
@@ -123,7 +123,7 @@ The app connects to a REST API with the following endpoints:
 - `PUT /api/equipment/:id` - Update equipment
 - `DELETE /api/equipment/:id` - Delete equipment
 
-## 🎯 Key Design Decisions
+##  Key Design Decisions
 
 1. **Separation of Concerns** - API logic, business logic, and UI are separated
 2. **Reusability** - Common components can be used throughout the app
@@ -132,20 +132,20 @@ The app connects to a REST API with the following endpoints:
 5. **Error Handling** - Graceful error handling at every level
 6. **User Feedback** - Loading states and error messages for better UX
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 npm test
 ```
 
-## 📝 Code Style
+##  Code Style
 
 - Functional components with hooks
 - Named exports for utilities, default exports for components
 - Consistent file naming (PascalCase for components, camelCase for utilities)
 - Comments for complex logic
 
-## 🚧 Future Improvements
+##  Future Improvements
 
 - [ ] Add unit tests with Jest and React Testing Library
 - [ ] Implement pagination for large datasets
@@ -157,15 +157,6 @@ npm test
 - [ ] Offline support with service workers
 - [ ] Add equipment history/audit log
 
-## 📄 License
-
-MIT
-
-## 👥 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
